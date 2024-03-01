@@ -1,0 +1,26 @@
+# .dockerignore for Python Streamlit project
+
+# Exclude Python-related artifacts
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude virtual environment
+venv
+.env
+.venv
+
+# Exclude Streamlit cache and log files
+.streamlit
+.cache
+*.log
+
+# Exclude other temporary or unnecessary files
+*.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.pkl
