@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+    app:
+        build: ./
+        command: streamlit run app/main.py --server.port 8501
+        volumes:
+            - ./:/app
+        ports:
+            - 8501:8501
